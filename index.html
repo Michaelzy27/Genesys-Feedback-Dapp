@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Feedback Form</h1>
+      <div id="connect-wallet">
+        <button id="connect" class="connectbutton">
+          Connect Wallet
+        </button>
+      </div>
+      <div class="feedback">
+        <h2>Feedback from Users</h2>
+        <ul class="feedback-list">
+          <!-- Feedback messages will be dynamically added here -->
+          <li class="feedback-list">
+            <div class="sender">Umeh Michael</div>
+            <div class="message">Couldn't complete due to internet outage</div>
+          </li>
+          <li class="feedback-list">
+            <div class="sender">Emeka Osegbo</div>
+            <div class="message">I had a good experience.</div>
+          </li>
+        </ul>
+      </div>
+      <div class="send-feedback-section">
+        <h2>Give Us Your Feedback</h2>
+        <form class="send-feedback-form">
+          <textarea
+            id="thefeedback"
+            placeholder="Please enter your feedback"
+          ></textarea>
+          <button id="add">Submit Feedback</button>
+        </form>
+      </div>
+    </div>
+    <script src="run.js"></script>
+  </body>
+</html>
